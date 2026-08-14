@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Hello from the Jenkins CI/CD Demo App!',
+    message: 'love you jaanu!',
     version: process.env.APP_VERSION || '1.0.0',
     hostname: require('os').hostname(),
     timestamp: new Date().toISOString()

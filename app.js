@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'love you jaanu!',
+    message: 'Tanjiro nezuko chan',
     version: process.env.APP_VERSION || '1.0.0',
     hostname: require('os').hostname(),
     timestamp: new Date().toISOString()
